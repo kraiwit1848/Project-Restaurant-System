@@ -1,0 +1,81 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0 ;
+  width: 97%;
+  border: 2px solid rgb(128, 128, 128);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dateTable{
+  padding-left: 2%;  
+}
+thead {
+  font-size: 100%;
+  /* width: 100%; */
+  /* line-height: */
+
+}
+
+tbody {
+  font-size: 130%;
+}
+.Button {
+  font-size: 100%;
+}
+
+th {
+  text-align: left;
+  padding: 20 px ;
+  background-color: #aca9a9;
+}
+
+td {
+  text-align: left;
+  padding: 25px;
+}
+.textcenter{
+  text-align: center;
+}
+.TotalPrice{
+  background-color: rgba(54, 54, 54, 0.5);
+  font-size: 140%;
+  font-weight: 600;
+}
+.Price {
+  line-height: 100%;
+}
+.bg {
+  background-color: #12f538;
+  
+}
+
+
+.checkmark {
+  --borderWidth: 5px;
+  --height: 24px;
+  --width: 12px;
+  --borderColor: #78b13f;  
+
+  display: inline-block;
+  transform: rotate(45deg);
+  height: var(--height);
+  width: var(--width);
+  border-bottom: var(--borderWidth) solid var(--borderColor);
+  border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+
+.removekmark {
+  --borderWidth: 5px;
+  --height: 22px;
+  --borderColor: #f51212;
+
+  display: inline-block;
+  transform: rotate(90deg);
+  height: var(--height);
+  border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2}
